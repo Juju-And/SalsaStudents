@@ -1,0 +1,21 @@
+@import "header.scss";
+@import "sections.scss";
+@import "../node_modules/normalize.css";
+
+html {
+  font-size: 10px;
+
+}
+
+body {
+  background-color: lawngreen;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-image {
+  max-width: 100%;
+}
