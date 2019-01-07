@@ -1,7 +1,15 @@
 header {
-  padding: 10px 10px;
   background-color: white;
   text-transform: uppercase;
+}
+
+.button-part {
+  width: 45px;
+  height: 7px;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 6px 0;
+  border-radius: 5px;
+
 }
 
 .nav-bar {
@@ -21,6 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: flex-end;
 
   }
   &-menu {
@@ -34,19 +43,20 @@ header {
       margin: 0;
       & > li {
         display: block;
-        padding-right: 4px;
         padding-top: 1rem;
-        &:hover {
-          background-color: red;
-        }
+        //  &:active {
+        //    background-color: red;
+        //  }
+        //}
+
       }
     }
+    &-logo {
+      flex: 1 0 75%;
+      display: flex;
+      align-items: center;
+      background-color: red;
+    }
   }
-  &-logo-bar {
-    flex: 1 0 75%;
-    display: flex;
-    align-items: center;
-  }
+
 }
-
-

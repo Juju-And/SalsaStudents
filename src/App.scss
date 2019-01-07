@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: lawngreen;
+  //background-color: lawngreen;
   font-family: 'Lato', sans-serif;
 }
 
@@ -18,4 +18,42 @@ body {
 
 .hero-image {
   max-width: 100%;
+}
+
+.pv10 {
+  padding: 10px 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 9px 25px;
+  border: 1px solid lightgray;
+  background-image: linear-gradient(to top, rgba(226, 226, 226, 1) 0%, rgba(209, 209, 209, 1) 35%, rgba(219, 219, 219, 1) 45%, rgba(254, 254, 254, 1) 100%);
+  &:hover {
+    background-image: linear-gradient(to top, rgb(205, 205, 205) 0%, rgb(188, 188, 188) 35%, rgb(198, 198, 198) 45%, rgb(233, 233, 233) 100%);
+
+  }
+}
+
+.section-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.cool-link {
+  display: inline-block;
+  color: gray;
+  text-decoration: none;
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+  &:active{
+    color: gray;
+    cursor: pointer;
+  }
 }
